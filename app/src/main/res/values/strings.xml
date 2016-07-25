@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LockScreen</string>
+    <string name="lock_btn_text">Lock Screen</string>
+    <string name="enable_admin_btn_text">Grant ADMIN privileges</string>
+    <string name="disable_admin_btn_text">Revoke ADMIN privileges</string>
+    <string name="help_btn_text" >Help</string>
+    <string name="ask_for_admin">You need to grant admin privileges to this app to allow screen locking.\nRead Help to get more details.</string>
+    <string name="admin_privileges_extra_explanation">Android security policies require that you grant admin privileges to this app to let it be able to lock your screen. You can find further informations in the Help section.</string>
+    <string name="help_text" ><![CDATA[You can quickly use this app to lock the screen without the need to press any physical button on you device in this way:\n - click "Grant admin privileges" and then grant the privileges when you see the system popup asking them\n - add the LockScreen widget to your home\n\n Any time you will click the widget, the screen will be locked immediately.\n\n\nEXPLANATIONS ABOUT ADMIN PRIVILEGES\n\n Locking a screen may seem a trivial task, but malicious apps could use it to permanently lock your device.\nThis is the reason why Android Security Policies require an administrator permission and require that the user explicitly grants the permission to the app.\nUser should grant this permission only to apps he can trust. The source code of this app is publicly available on github so anybody can check and see it doesn\'t perform any harmful operation nor it grab any private information (as other lock screen apps on the store do, such as reading the device GPS position or accessing other private informations that aren\'t required to lock the screen).\n\nYou can find the source code on github at http://www.github.com/indirizzo.\n\nYou can revoke administrator permission at any time, both clicking the Remove Admin Permission button or disabling the permission from the Android Settings -> Security -> Device Administrators setting.\nTo uninstall the app, first revoke the admin permission and then uninstall it. ]]></string>
+    <string name="widget_lock_btn">Lock</string>
+    <string name="widget_ask_admin">You must grant Admin permission to the app to use the widget</string>
+    <string name="close">Close</string>
+    <string name="admin_granted">Admin permission granted</string>
+    <string name="admin_revoke_warning">Revoking the permission won\'t allow app to lock screen</string>
+    <string name="admin_revoked">Admin permission revoked</string>
+    <string name="dialog_title" >Informations</string>
+</resources>
